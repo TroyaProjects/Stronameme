@@ -43,19 +43,50 @@
 .dropdown:hover .dropbtn {
   background-color: fuchsia;
 }
+        body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: powderblue;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: fuchsia;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: pink;
+  color: white;
+}
 </style>
 </head>
 
 <body>
+    
+    <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="zwierzaki.html">Cute animals</a></li>
+  <li><a href="silly.html">Silly cats</a></li>
+  <li><a href="modular.html">Modular - soon</a></li>
+</ul>
 
-<div class="dropdown">
-  <button class="dropbtn">Click here to see some cool stuff</button>
-  <div class="dropdown-content">
-    <a href="zwierzaki.html">Cute animals</a>
-    <a href="silly.html">Silly cats</a>
-    <a href="modular.htlm">Modular - soon</a>
-  </div>
-</div>
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
    
 <h1 style="font-size: 120px">Strona z memami</h1>
     

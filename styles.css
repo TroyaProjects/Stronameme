@@ -39,7 +39,7 @@ ul {
 }
 
 li a {
-  display: none;
+  display: block;
   color: navy;
   padding: 8px 16px;
   text-decoration: underline;

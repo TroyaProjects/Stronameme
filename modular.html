@@ -7,13 +7,60 @@
 body {
   background-image: url("https://i.imgur.com/77ZvFEu.png");
 }
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: fuchsia;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: fuchsia;
+}
 </style>
 </head>
+  
 <body>
-</head>
+ <div class="dropdown">
+  <button class="dropbtn">Click here to see some cool stuff</button>
+  <div class="dropdown-content">
+    <a href="index.html">Go home</a>
+    <a href="zwierzaki.html">Cute animals</a>
+    <a href="silly.html">Silly cats</a>
+  </div>
+</div>
+  
 
-<body>
-<button onclick="document.location='index.html'">Back to the main page</button>
 <h1 style="font-size: 60px; color:green">My DIY modular synth</h1>
   
 

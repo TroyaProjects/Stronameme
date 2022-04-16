@@ -19,6 +19,30 @@ body {
   font-size: 45px;
 }
 
+.button {
+  background-color: cornsilk;
+  border: 2px solid darksalmon;
+  color: black;
+  padding: 15px 40px;
+  border-radius: 12px;
+  box-shadow: 0 9px #999;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: orchid;
+  color: white;
+}
+.button:active {
+  background-color: darkorchid;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 p {
   font-family: courier;
   font-size: 160%;

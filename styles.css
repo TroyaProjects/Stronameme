@@ -141,3 +141,78 @@ li a:hover {
   width: 350px;
   height: 350px;
 }
+
+.containerping {
+  position: relative;
+  width: 600px;
+}
+.pingaclass {
+  width: 100%;
+}
+.pinguclass {
+  position: absolute;
+  top: 80%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.hatclass {
+  position: absolute;
+  top: 6%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.sealcontainer {
+  position: relative;
+  width: 600px;
+}
+.seal {
+  width: 100%;
+}
+.photoseal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 130px;
+}
+
+.phototop {
+  position: absolute;
+  top: 25%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  width: 340px;
+  height: 490px;
+}
+
+.robbieclass {
+position: absolute;
+  top: -20%;
+  left: 130%;
+  width: 200px;
+  height: 200px;
+
+}
+
+.sealclassphoto1 {
+  position: absolute;
+  top: 50%;
+  left: 130%;
+  transform: rotate(30deg);
+  width: 130px;
+  height: 130px;
+}
+
+.sealclassphoto2 {
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  transform: rotate(-45deg);
+  width: 130px;
+  height: 130px;
+}

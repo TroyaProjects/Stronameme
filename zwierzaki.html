@@ -57,8 +57,33 @@ $(document).ready(function(){
 <script>
 $(document).ready(function(){
  $("#echidnabutton").click(function(){
-    $("#boss").delay(800).slideDown(1000).fadeIn();
+    $("#boss").delay(800).slideDown(1000);
     
+ });
+});
+
+</script>
+
+<script>
+$(document).ready(function(){
+ $("#pingabutton").click(function(){
+    $("#pingu").fadeIn();
+    $("#hat").delay(800).slideDown(1000);
+    
+ });
+});
+
+</script>
+
+<script>
+$(document).ready(function(){
+ $("#sealbutton").click(function(){
+    $("#photo").fadeIn();
+    $("#sealphoto").fadeIn();
+    $("#sealextra1").delay(2000).fadeIn();
+    $("#sealextra2").delay(2300).fadeIn();
+    $("#robbie").delay(3000).fadeIn();
+
  });
 });
 
@@ -88,7 +113,16 @@ $(document).ready(function(){
     
     <hr>
     <p>Check out this cute penguin!</p>"
-    <img src="https://i.imgur.com/5BrQ2pm.png" title="source: imgur.com" />
+
+<div class="containerping">
+    <img id="pingaimg" class="pingaclass" src="https://i.imgur.com/5BrQ2pm.png" title="little fluffball" />
+  <button id = "pingabutton">Click here to see his famous friend!!
+  </button>
+  <img id = "pingu" class = "pinguclass" src="https://i.imgur.com/1WRhyrG.gif" style="display:none;" title="noot! noot!" />
+
+  <img id = "hat" class = "hatclass" src="https://i.imgur.com/nNZVAJ2.gif"style="display:none;" title="lucky day" height="250" width="200" />
+</div>
+
     <p>Here you can see baby koala.</p>
     <div class="container1">
    <img id="myImage" class = "image0" src="https://i.imgur.com/ijeHg6c.png" height="600" width="550">
@@ -102,14 +136,14 @@ $(document).ready(function(){
 
  
     <P>Baby skunk sniffing for his mom.</P>
- <img src="https://i.imgur.com/UHfJgzj.png" title="source: imgur.com" height="600" width="600"/>
+ <img src="https://i.imgur.com/UHfJgzj.png" title="check out his cute paws" height="600" width="600"/>
  
  
  
  <p>One lucky echidna in a bowl.</p>
 
  <div class="container">
- <img id="myImage2" src="https://i.imgur.com/aiC8bT8.png" title="source: imgur.com" height="600" width="750">
+ <img id="myImage2" src="https://i.imgur.com/aiC8bT8.png" title="he is so cute" height="600" width="750">
  
  <button id="echidnabutton" class="echidna0" onclick="document.getElementById('myImage2').src='https://i.imgur.com/xDVNux2.png'">Click here to see the echidna in a bath!</button>
 
@@ -120,10 +154,31 @@ $(document).ready(function(){
  
  
  <p>Baby seal posing for a photo.</p>
- <img src="https://i.imgur.com/uXb8iIU.png" title="Sea puppy!" />
+
+<div class="sealcontainer">
+
+  <img id = "robbie" class = "robbieclass" src="https://i.imgur.com/pIY7nao.gif" style="display:none;" title="It's Robbie!" />
+
+  <img id = "sealextra1" class = "sealclassphoto1" src="https://i.imgur.com/dSLxEa2.png" style="display:none;" title="source: Antarctica" />
+  <img id = "sealextra2" class = "sealclassphoto2" src="https://i.imgur.com/dSLxEa2.png" style="display:none;" title="source: Antarctica" />
+
+
+ <img id="seal" src="https://i.imgur.com/uXb8iIU.png" title="Sea puppy!" height="400" width="820" />
+ <button id = "sealbutton">Click here to see some action!
+  </button>
+
+  <img id = "sealphoto" class = "photoseal" src="https://i.imgur.com/dSLxEa2.png" style="display:none;" title="source: Antarctica" />
+
+  <img id = "photo" class = "phototop" src="https://i.imgur.com/09wWATO.gif" style="display:none;" title="source: Freebe" />
+
+</div>
+
+
+
+
+
+
  <hr>
 
 </body>
-
-
 </html>

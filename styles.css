@@ -22,7 +22,7 @@ body {
 p {
   font-family: courier;
   font-size: 160%;
-  border: 2px pink (24, 0, 243);
+  border: 2px pink;
   padding: 30px;
   margin: 50px;
 }
@@ -215,4 +215,62 @@ position: absolute;
   transform: rotate(-45deg);
   width: 130px;
   height: 130px;
+}
+
+.containerskunk {
+  position: relative;
+  width: 600px;
+}
+.skunkclass {
+  width: 100%;
+}
+
+.tophatclass {
+  position: absolute;
+  top: 17%;
+  left: 53%;
+  transform: rotate(12deg);
+  width: 220px;
+  height: 220px;
+}
+
+.paw0class {
+  position: absolute;
+  top: 85%;
+  left: 10%;
+  transform: rotate(90deg);
+  width: 100px;
+  height: 100px;
+}
+.paw1class {
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  transform: rotate(90deg);
+  width: 100px;
+  height: 100px;
+}
+.paw2class {
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  transform: rotate(90deg);
+  width: 100px;
+  height: 100px;
+}
+.paw3class {
+  position: absolute;
+  top: 85%;
+  left: 100%;
+  transform: rotate(90deg);
+  width: 100px;
+  height: 100px;
+}
+.fartclass {
+  position: absolute;
+  top: 70%;
+  left: 120%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
 }

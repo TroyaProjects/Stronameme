@@ -89,6 +89,21 @@ $(document).ready(function(){
 
 </script>
 
+<script>
+$(document).ready(function(){
+ $("#skunkbutton").click(function(){
+    $("#paw0").delay(100).fadeIn();
+    $("#paw1").delay(500).fadeIn();
+    $("#paw2").delay(800).fadeIn();
+    $("#paw3").delay(1200).fadeIn();
+    $("#fart").delay(1500).fadeIn();
+    $("#tophat").delay(3000).slideDown();
+
+ });
+});
+
+</script>
+
 </head>
 
 <body>
@@ -112,7 +127,7 @@ $(document).ready(function(){
 
     
     <hr>
-    <p>Check out this cute penguin!</p>"
+    <p>Check out this cute penguin!</p>
 
 <div class="containerping">
     <img id="pingaimg" class="pingaclass" src="https://i.imgur.com/5BrQ2pm.png" title="little fluffball" />
@@ -131,14 +146,28 @@ $(document).ready(function(){
  
   <img id = "fireworks" class = "imagetop" src="https://i.imgur.com/9aZ5QQP.gif" style="display:none;" title="source: Freebe" />
  </div>
- <hr>
  
+<div class="containerskunk">
+ 
+    <p>Baby skunk sniffing for his mom.</p>
+ <img id="babyskunk" class="skunkclass" src="https://i.imgur.com/UHfJgzj.png" title="check out his cute paws" height="600" width="600"/>
+ 
+<button id = "skunkbutton">Click here to see where is mama going!
+  </button>
 
- 
-    <P>Baby skunk sniffing for his mom.</P>
- <img src="https://i.imgur.com/UHfJgzj.png" title="check out his cute paws" height="600" width="600"/>
- 
- 
+  <img id = "tophat" class = "tophatclass" src="https://i.imgur.com/IjDDR9S.gif" title="classy" style="display:none;" />
+
+  <img id = "paw0" class = "paw0class" src="https://i.imgur.com/AxlYMT1.png" style="display:none;" />
+
+  <img id = "paw1" class = "paw1class" src="https://i.imgur.com/AxlYMT1.png" style="display:none;" />
+
+  <img id = "paw2" class = "paw2class" src="https://i.imgur.com/AxlYMT1.png" style="display:none;" />
+
+  <img id = "paw3" class = "paw3class" src="https://i.imgur.com/AxlYMT1.png" style="display:none;" />
+
+  <img id = "fart" class = "fartclass" src="https://i.imgur.com/oAhNryO.gif" title="smely" height="250" width="200" style="display:none;" />
+
+ </div>
  
  <p>One lucky echidna in a bowl.</p>
 
@@ -149,10 +178,7 @@ $(document).ready(function(){
 
  <img id = "boss" class = "image2top" src="https://i.imgur.com/VTNoosn.png" style="display:none;" title="source: Freebe" height="200" width="280" />
 </div>
- <hr>
 
- 
- 
  <p>Baby seal posing for a photo.</p>
 
 <div class="sealcontainer">
@@ -172,13 +198,6 @@ $(document).ready(function(){
   <img id = "photo" class = "phototop" src="https://i.imgur.com/09wWATO.gif" style="display:none;" title="source: Freebe" />
 
 </div>
-
-
-
-
-
-
- <hr>
-
+<hr>
 </body>
 </html>
